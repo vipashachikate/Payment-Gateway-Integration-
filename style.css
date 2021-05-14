@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.outer{
+  display: table;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  background: url("https://media.istockphoto.com/vectors/virus-bacteria-vector-background-cells-disease-outbreak-coronavirus-vector-id1211544068?k=6&m=1211544068&s=612x612&w=0&h=IvZo-HIL4o6qhUaTno8SKcnPmBf6niW1YEBjBzDABHk="), rgba(0,0,0,0.8) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  padding: 10px;
+}
+.outer .inner{
+  display: table-cell;
+  vertical-align: middle;
+}
+.outer .inner h2, .outer1 .inner1 h2{
+  font-size: 60px;
+  letter-spacing: 3px;
+  color: black;
+  text-shadow: 1px 1px white;
+}
+.outer .inner h2:hover, .outer1 .inner1 h2:hover{
+  text-shadow: 2px 1px red;
+}
+.outer .inner p{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 30px;
+  color: black;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.outer .inner form{
+  padding: 10px;
+
+}
+.outer1{
+  background: url("https://media.istockphoto.com/photos/woman-wearing-protective-face-mask-in-the-office-for-safety-and-picture-id1213501588?k=6&m=1213501588&s=612x612&w=0&h=Er545hGIKuXebtkLBxG801YZ9BVy_Qo0EKoHXw90a0E="), rgba(0,0,0,0.8) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+  padding: 10px;
+  height: 100vh;
+  display: table;
+  width: 100%;
+}
+.outer1 .inner1{
+  padding-left: 50px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.outer1 .inner1 ul{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: black;
+  padding-top: 10px;
+}
+.outer2{
+  height: 500px;
+  width: 100%;
+  display: table;
+  padding: 15px;
+  justify-content: center;
+  text-align: center;
+  background: url("https://images.pexels.com/photos/4197564/pexels-photo-4197564.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"),rgba(0,0,0,0.8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  font-size: 32px;
+}
+.outer2 .inner2{
+  display: table-cell;
+  vertical-align: middle;
+}
+.outer2 .inner2 div{
+  background: rgba(81, 106, 139, 0.4);
+  float: left;
+  width: 32%;
+  height: 120px;
+  margin-left: 9px;
+  margin-right: 5px;
+  padding: 5px;
+}
+.outer2 .inner2 div:hover{
+  border: 2px solid black;
+  box-shadow: 2px 2px blue;
+  height: 130px;
+}
+
+
+
+.outer3{
+  background: black;
+  color: white;
+  height: 80px;
+  display: table;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+.outer3 .inner3{
+  display: table-cell;
+  vertical-align: middle;
+}
+.outer3 .inner3 i{
+  margin: 5px;
+}
+.outer3 .inner3 i:hover{
+  color: yellow;
+}
